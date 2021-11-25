@@ -1,0 +1,27 @@
+body {
+    background-color: #282c34;
+  }
+  h1, hr {
+    color: #924441;
+  }
+  a:link, a:visited {
+    background-color: #282c34;
+    color: #c2c2c2;
+    text-decoration: none;
+  }
+  a:hover, pre {
+    background-color: #282c34;
+    color: #924441;
+    text-decoration: none;
+  }
+  h2, ol, p {
+    color: #c2c2c2;
+  }
+  
+/*ul li::marker{
+    content: "•";
+}*/
+
+ol li::marker, ul li::marker {
+    color: #924441;
+}
